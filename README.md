@@ -25,7 +25,7 @@ This project is apart of the Udaicty iOS Development Nanodegree.
 
 ## Contribute
 
-We would love you for the contribution to **MemeMet**, check the ``LICENSE`` file for more info.
+We would love you for the contribution to **MemeMe**, check the ``LICENSE`` file for more info.
 
 ## Meta
 
