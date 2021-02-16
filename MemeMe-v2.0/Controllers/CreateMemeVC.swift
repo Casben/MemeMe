@@ -38,7 +38,7 @@ class CreateMemeVC: UIViewController {
         unsubscribeFromKeyboardNotifications()
     }
     
-    //MARK: - Methods
+    //MARK: - Helpers
     
     func openImagePicker(_ type: UIImagePickerController.SourceType) {
         let pickerController = UIImagePickerController()
@@ -87,7 +87,6 @@ class CreateMemeVC: UIViewController {
         present(shareSheet, animated: true, completion: nil)
     }
     
-    
     @IBAction func pickAnImageFromAlbum(_ sender: Any) {
         openImagePicker(.photoLibrary)
     }
@@ -95,7 +94,6 @@ class CreateMemeVC: UIViewController {
     @IBAction func pickAnImageFromCamera(_ sender: Any) {
         openImagePicker(.camera)
     }
-    
     
     @objc func keyboardWillShow(_ notification: Notification) {
         if bottomTextField.isEditing, view.frame.origin.y == 0 {

@@ -16,7 +16,7 @@ class MemeTableViewCell: UITableViewCell {
     let memeImageView = UIImageView()
     let memeText = UILabel()
     
-    //MARK: - Intializers
+    //MARK: - Lifecycle
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -27,7 +27,7 @@ class MemeTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    //MARK: Configuration
+    //MARK: Helpers
     
     func configureCell(with meme: Meme) {
         memeImageView.image = meme.memedImage

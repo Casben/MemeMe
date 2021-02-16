@@ -8,7 +8,7 @@
 
 import UIKit
 
-//MARK: - UIViewController Helper Methods
+//MARK: - UIViewController Helpers
 
 extension UIViewController {
     func configureNavigationBar(withTitle title: String) {
@@ -18,7 +18,7 @@ extension UIViewController {
     
 }
 
-//MARK: - UIView Helper Methods
+//MARK: - UIView Helpers
 extension UIView {
     func addSubviews(_ views: UIView...) {
         for view in views {
@@ -29,7 +29,7 @@ extension UIView {
 
 }
 
-//MARK: - UITableView Helper Methods
+//MARK: - UITableView Helpers
 extension UITableView {
     func removeExcessCells() {
         tableFooterView = UIView(frame: .zero)

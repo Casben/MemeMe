@@ -15,7 +15,7 @@ class MemeCollectionViewCell: UICollectionViewCell {
     static let reuseID = "MemeCollectionCell"
     var memeImageCell = UIImageView()
     
-    //MARK: - Intializers
+    //MARK: - Lifecycle
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -26,7 +26,7 @@ class MemeCollectionViewCell: UICollectionViewCell {
         super.init(coder: coder)
     }
     
-    //MARK: - Configuration
+    //MARK: - Helpers
     
     func configure() {
         addSubview(memeImageCell)

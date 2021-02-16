@@ -22,7 +22,7 @@ class MemeDetailVC: UIViewController {
         configure()
     }
     
-    //MARK: - Configure
+    //MARK: - Helpers
     
     func configure() {
         view.backgroundColor = .systemGray5
@@ -45,6 +45,8 @@ class MemeDetailVC: UIViewController {
         navigationItem.rightBarButtonItem = rightShareButton
     }
 
+    //MARK: - Methods
+    
     @objc func presentActivityVC() {
         let resendMeme = meme.memedImage
         let shareSheet = UIActivityViewController(activityItems: [resendMeme], applicationActivities: nil)

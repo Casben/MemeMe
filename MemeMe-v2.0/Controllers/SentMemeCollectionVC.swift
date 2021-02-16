@@ -22,7 +22,6 @@ class SentMemeCollectionVC: UICollectionViewController {
     
     //MARK: - Lifecycles
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         configure()
@@ -34,7 +33,7 @@ class SentMemeCollectionVC: UICollectionViewController {
         collectionView.reloadData()
     }
 
-    //MARK: - Configuration
+    //MARK: - Helpers
     
     func configure() {
         configureNavigationBar(withTitle: "Sent Memes")
@@ -62,7 +61,6 @@ class SentMemeCollectionVC: UICollectionViewController {
         return cell
     }
 
-    
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return memes.count
     }

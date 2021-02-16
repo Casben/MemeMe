@@ -27,17 +27,14 @@ class SentMemeTableVC: UITableViewController {
 
     }
     
-    
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         tableView.reloadData()
         
     }
     
-
     
-    //MARK: - Configuration
+    //MARK: - Helpers
     
     func configure() {
         self.modalPresentationStyle = .fullScreen
