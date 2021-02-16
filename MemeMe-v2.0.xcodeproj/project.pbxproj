@@ -76,7 +76,7 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		CB68E71F24BD67B900D0F56F /* ViewControllers */ = {
+		CB68E71F24BD67B900D0F56F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				CBF72FC124B6506800115F93 /* CreateMemeVC.swift */,
@@ -84,7 +84,7 @@
 				CB8B6A4024B8F676001BB934 /* SentMemeTableVC.swift */,
 				CB163DCC24BCE7F2009A0DC6 /* MemeDetailVC.swift */,
 			);
-			path = ViewControllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		CBF72FB124B6506800115F93 = {
@@ -106,7 +106,7 @@
 		CBF72FBC24B6506800115F93 /* MemeMe-v2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				CB68E71F24BD67B900D0F56F /* ViewControllers */,
+				CB68E71F24BD67B900D0F56F /* Controllers */,
 				CB68E71E24BD67A300D0F56F /* Cells */,
 				CB68E71D24BD678D00D0F56F /* Model */,
 				CB68E71C24BD676D00D0F56F /* Extensions */,

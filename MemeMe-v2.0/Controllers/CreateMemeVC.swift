@@ -72,7 +72,7 @@ class CreateMemeVC: UIViewController {
         return memedImage
     }
     
-    //MARK: - Helpers
+    //MARK: - Methods
 
     @IBAction func share(_ sender: Any) {
         let memedImage: UIImage = generateMemedImage()
@@ -109,13 +109,13 @@ class CreateMemeVC: UIViewController {
         }
     }
     @IBAction func dismiss(_ sender: Any) {
-        self.dismiss(animated: true)
+        dismiss(animated: true)
     }
     
-    //MARK: - Configuration
+    //MARK: - Helpers
     
     func configureUI() {
-        configureNavigationBar(withTitle: "Create A new Meme")
+        configureNavigationBar(withTitle: "Create a new Meme")
         setUpTextFieldStyle(toTextField: topTextField, defaultText: "TOP")
         setUpTextFieldStyle(toTextField: bottomTextField, defaultText: "BOTTOM")
         shareButton.isEnabled = false
