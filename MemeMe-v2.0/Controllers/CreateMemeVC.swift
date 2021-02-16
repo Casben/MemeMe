@@ -81,7 +81,7 @@ class CreateMemeVC: UIViewController {
         shareSheet.completionWithItemsHandler = { (_, completed, _, _) in
             if (completed) {
                 self.save()
-                
+                self.dismiss(self)
             }
         }
         present(shareSheet, animated: true, completion: nil)
